@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Shaun',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'https://api.open-meteo.com/v1/forecast?latitude=54.6904&longitude=-1.2404&hourly=temperature_2m,apparent_temperature,precipitation_probability,precipitation&timezone=Europe%2FLondon', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '54.6904',
+	defaultLongitude: '-1.2404',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -61,7 +61,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.proton.me/u/0/all-mail',
 		},
 		{
 			id: '3',
@@ -73,13 +73,13 @@ const CONFIG = {
 			id: '4',
 			name: 'Calendar',
 			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			link: 'https://calendar.proton.me/u/0/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
+			name: 'Drive',
 			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://drive.proton.me/u/0/',
 		},
 		{
 			id: '6',
